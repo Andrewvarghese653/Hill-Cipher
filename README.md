@@ -25,6 +25,7 @@ The cipher can, be adapted to an alphabet with any number of letters. All arithm
 
 
 ## PROGRAM:
+```c
 PROGRAM:
 #include <stdio.h> #include <string.h>
 int keymat[3][3] = { { 1, 2, 1 }, { 2, 3, 2 }, { 2, 2, 1 } };
@@ -70,6 +71,7 @@ strcat(dec, decode(a, b, c));
 }
 printf("Decoded message : %s\n", dec); return 0;
 }
+```
 
 
 ## OUTPUT:
